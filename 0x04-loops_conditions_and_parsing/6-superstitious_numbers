@@ -4,16 +4,21 @@
 C=1
 while [ $C -lt 21 ]
 do
-    echo $C
     case $C in
     4)
+        echo $C
         echo "bad luck from China"
         ;;
     9)
+        echo $C
         echo "bad luck from Japan"
         ;;
     17)
+        echo $C
         echo "bad luck from Italy"
+        ;;
+    *)
+        echo $C
         ;;
     esac
     let C=C+1
