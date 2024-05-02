@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 C=0
-while [ $C -lt 10 ]
+while [ $C -lt 11 ]
 do
-    echo "Best School"
-    if [ $C -eq 8 ]; then
+    if [ $C = 9 ]
+    then
         echo "Hi"
+    else
+        echo "Best School"
     fi
     let C=C+1
 done
