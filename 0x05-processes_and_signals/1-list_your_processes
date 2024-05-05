@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# this script show all process
+
+ps aux
